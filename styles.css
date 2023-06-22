@@ -1,0 +1,146 @@
+/*
+    Theme : Task manager
+    Version : 1.0
+    Author : Hardik Anawala
+    Date : 21/06/2023
+*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.wrapper
+{
+    border : 1px solid green ; /*creates border*/
+    width: 70%; /* border size*/
+    margin: 0 auto; /* will become center /*margin : top-bottom left-right */
+    padding: 2%; /*space inside border*/
+}
+
+h1
+{
+    color:#0984e3;
+    margin-bottom: 2%; /* Space after heading */
+}
+
+.menu
+{
+    margin-bottom: 2%; /*  Add space after menu    */
+}
+
+.menu a
+{
+    font-weight: bold; /* Text of menu will be bold */
+    margin-right: 1%;   /*  Space will be added between two links   */
+    color: #10ac84;
+    text-decoration: none; /*   removes undeline    */
+}
+
+.menu a:hover
+{
+    text-decoration: underline; /* hover the link to appeare underline  */  
+}
+
+.link-primary
+{
+    margin: 4px;
+    padding: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-link
+{
+    background-color:#85e3f4;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+}
+
+/* .link-sec
+{
+    margin: 4px;
+    padding: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+.ed-link
+{
+    /* background-color:#4ff4aa; */
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    /* color: green; */
+}
+
+.del-link
+{
+    /* background-color:#fe5050; */
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    /* color: red; */
+}
+
+.btn-secondary
+{
+    background-color: #778ca3;
+    /* background-color:#95afc0; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    /* color: aliceblue; */
+    color: whitesmoke;
+}
+
+.btn-extra
+{
+    margin-top: 3%;
+    padding: 3%;
+    font-weight: bold;
+    background-color:#85e3f4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* width: 45%; */
+    border-radius: 4px;
+    color: black;
+}
+
+.btn-secondary:hover
+{
+    /* background-color: #778ca3; */
+    background-color: #4b6584;
+    text-decoration: underline;
+}
+.tbl-content
+{
+    width: 100%;    /* Table size will incerease till border    */
+    padding-bottom: 3%; /* Adds space before Add-Task button  */
+}
+
+table tr th
+{
+    text-align: left;
+    border-bottom: 1px solid black; /* A Border will be available after heading row */
+    padding: 1%;    /*  Adds Space before heading border */
+}
+
+table tr td
+{
+    padding: 1%;    /*  Adds space after each row */  
+}
+
+h3{
+    padding: 2% 0;
+}
+
+.tbl-form
+{
+    width: 40%;
+}
